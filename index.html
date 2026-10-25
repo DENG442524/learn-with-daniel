@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn with Daniel | Web Design, AI &amp; SS1 Science</title>
+    <meta
+      name="description"
+      content="Beginner-friendly lessons in webpage design, artificial intelligence, and SS1 science subjects."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="#home" class="brand" aria-label="Learn with Daniel home">
+          <span class="brand-mark">LD</span>
+          <span>Learn with Daniel</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#courses">Courses</a>
+          <a href="#web-design">Web Design</a>
+          <a href="#ai">AI</a>
+          <a href="#ai-creator">Create with AI</a>
+          <a href="#science">SS1 Science</a>
+          <a href="#contact">Message</a>
+        </nav>
+
+        <a href="#courses" class="nav-cta">Start Learning</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Learn • Practise • Create</span>
+            <h1>
+              Big ideas, made
+              <span class="gradient-text">easy to learn.</span>
+            </h1>
+            <p>
+              Explore how to design a webpage, understand how artificial
+              intelligence works, and study important SS1 science topics with
+              simple explanations and practical activities.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#courses" class="primary-btn">Explore lessons</a>
+              <a href="#about" class="secondary-btn">How it works</a>
+            </div>
+
+            <div class="hero-metrics" aria-label="What you can learn">
+              <div class="metric">
+                <strong>Web</strong>
+                <span>Build a webpage</span>
+              </div>
+              <div class="metric">
+                <strong>AI</strong>
+                <span>Explore smart tools</span>
+              </div>
+              <div class="metric">
+                <strong>SS1</strong>
+                <span>Study science</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Learning starts with curiosity">
+            <div class="profile-card">
+              <div class="avatar-wrap">
+                <div class="badge">Meet your learning robot</div>
+                <svg
+                  class="robot-image"
+                  viewBox="0 0 320 360"
+                  role="img"
+                  aria-labelledby="robot-title robot-description"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title id="robot-title">Friendly learning robot</title>
+                  <desc id="robot-description">
+                    A polished silver robot with teal glowing eyes and a
+                    welcoming expression.
+                  </desc>
+                  <defs>
+                    <linearGradient id="robot-shell" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#f8fafc" />
+                      <stop offset="0.55" stop-color="#cbd5e1" />
+                      <stop offset="1" stop-color="#64748b" />
+                    </linearGradient>
+                    <linearGradient id="robot-body" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#e2e8f0" />
+                      <stop offset="1" stop-color="#64748b" />
+                    </linearGradient>
+                    <linearGradient id="robot-screen" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#16334a" />
+                      <stop offset="1" stop-color="#071827" />
+                    </linearGradient>
+                    <filter id="robot-glow" x="-100%" y="-100%" width="300%" height="300%">
+                      <feGaussianBlur stdDeviation="5" result="blur" />
+                      <feMerge>
+                        <feMergeNode in="blur" />
+                        <feMergeNode in="SourceGraphic" />
+                      </feMerge>
+                    </filter>
+                  </defs>
+                  <ellipse cx="160" cy="326" rx="93" ry="17" fill="#020617" opacity="0.35" />
+                  <path d="M160 53V30" stroke="#cbd5e1" stroke-width="10" stroke-linecap="round" />
+                  <circle cx="160" cy="22" r="13" fill="#5eead4" filter="url(#robot-glow)" />
+                  <path
+                    d="M91 274c0-31 25-56 56-56h26c31 0 56 25 56 56v39H91z"
+                    fill="url(#robot-body)"
+                    stroke="#f8fafc"
+                    stroke-opacity="0.65"
+                    stroke-width="3"
+                  />
+                  <path d="M128 249h64l15 64h-94z" fill="url(#robot-screen)" />
+                  <path d="M145 269h30" stroke="#5eead4" stroke-width="6" stroke-linecap="round" />
+                  <path d="M151 287h18" stroke="#8b5cf6" stroke-width="5" stroke-linecap="round" />
+                  <path d="M103 282 75 301M217 282l28 19" stroke="#cbd5e1" stroke-width="15" stroke-linecap="round" />
+                  <circle cx="72" cy="304" r="12" fill="#5eead4" />
+                  <circle cx="248" cy="304" r="12" fill="#5eead4" />
+                  <rect
+                    x="63"
+                    y="64"
+                    width="194"
+                    height="172"
+                    rx="62"
+                    fill="url(#robot-shell)"
+                    stroke="#f8fafc"
+                    stroke-width="4"
+                  />
+                  <rect x="83" y="86" width="154" height="122" rx="45" fill="url(#robot-screen)" />
+                  <path d="M116 143a14 14 0 1 0 28 0 14 14 0 0 0-28 0Z" fill="#5eead4" filter="url(#robot-glow)" />
+                  <path d="M176 143a14 14 0 1 0 28 0 14 14 0 0 0-28 0Z" fill="#5eead4" filter="url(#robot-glow)" />
+                  <path
+                    d="M133 174q27 24 54 0"
+                    fill="none"
+                    stroke="#c4b5fd"
+                    stroke-width="6"
+                    stroke-linecap="round"
+                  />
+                  <rect x="49" y="124" width="17" height="52" rx="8" fill="#5eead4" />
+                  <rect x="254" y="124" width="17" height="52" rx="8" fill="#5eead4" />
+                  <path d="M104 73q56-30 112 0" fill="none" stroke="#fff" stroke-opacity="0.55" stroke-width="5" stroke-linecap="round" />
+                </svg>
+                <div class="status-card">
+                  <small>Learning style</small>
+                  <strong>Learn by doing</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Choose what to learn</h2>
+            <p>
+              Start with a subject that interests you. Each learning path is
+              broken into beginner-friendly ideas and activities.
+            </p>
+          </div>
+
+          <div class="interest-grid">
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">🌐</div>
+              <h3>Webpage design</h3>
+              <p>
+                Learn how HTML gives a page structure and CSS makes it look
+                attractive. Finish by planning your own simple webpage.
+              </p>
+              <p><a href="#web-design">Explore web design →</a></p>
+            </article>
+
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">🤖</div>
+              <h3>Artificial intelligence</h3>
+              <p>
+                Discover what AI is, how it learns from examples, and how to
+                plan a small, responsible beginner project.
+              </p>
+              <p><a href="#ai">Explore AI →</a></p>
+            </article>
+
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">🔬</div>
+              <h3>SS1 science</h3>
+              <p>
+                Review introductory Biology, Chemistry, and Physics concepts
+                with everyday examples and practice questions.
+              </p>
+              <p><a href="#science">Explore SS1 science →</a></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="web-design" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Make your first webpage</h2>
+            <p>
+              A webpage is built in layers. These three technologies are a
+              friendly place for beginners to start.
+            </p>
+          </div>
+
+          <div class="interest-grid">
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">🧱</div>
+              <h3>1. HTML: the structure</h3>
+              <p>
+                HTML uses elements to organise content. A heading can use
+                <code>&lt;h1&gt;</code>, a paragraph can use
+                <code>&lt;p&gt;</code>, and a link can use
+                <code>&lt;a&gt;</code>.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">🎨</div>
+              <h3>2. CSS: the appearance</h3>
+              <p>
+                CSS controls colours, spacing, text, and page layout. It helps
+                make the same HTML content clear and pleasant to use.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">⚙️</div>
+              <h3>3. JavaScript: the interaction</h3>
+              <p>
+                JavaScript can respond to actions, such as clicking a button.
+                Begin with HTML and CSS, then add interaction when you are ready.
+              </p>
+            </article>
+          </div>
+
+          <div class="panel">
+            <h3>Try this first project</h3>
+            <p>
+              Create a page about a hobby: add a title, a short introduction,
+              three things you enjoy, and one useful link. Then use CSS to
+              choose colours and arrange the content. Preview it on a phone
+              screen as well as a computer.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="ai" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Understand and explore AI</h2>
+            <p>
+              Artificial intelligence (AI) describes computer systems that
+              perform tasks that usually need human-like abilities, such as
+              recognising patterns or understanding language.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <article class="panel">
+              <h3>How can a simple AI project work?</h3>
+              <ul class="list">
+                <li><span class="check">1</span> Choose one small task, like sorting example items into groups.</li>
+                <li><span class="check">2</span> Gather suitable examples and check that they are accurate.</li>
+                <li><span class="check">3</span> Use a beginner-friendly learning tool to train or configure a model.</li>
+                <li><span class="check">4</span> Test it with new examples and note where it gets things wrong.</li>
+              </ul>
+            </article>
+            <article class="panel">
+              <h3>Use AI thoughtfully</h3>
+              <p>
+                AI tools can make mistakes and reflect problems in their
+                examples. Check important answers with a trusted source, protect
+                personal information, and ask a teacher or trusted adult before
+                sharing data or publishing a project.
+              </p>
+              <p>
+                A good first activity is to compare how a person and a simple
+                sorting rule group the same set of objects. You can learn about
+                patterns without needing to build a large AI system.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="ai-creator" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Plan an AI creation</h2>
+            <p>
+              Describe what you want your AI project to do and get a practical
+              beginner-friendly plan to help you build it.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <form id="ai-creator-form" class="panel">
+              <label for="project-name">Give your project a name</label>
+              <input
+                id="project-name"
+                name="projectName"
+                type="text"
+                placeholder="For example, Plant Helper"
+                required
+              />
+
+              <label for="project-goal">What do you want it to do?</label>
+              <textarea
+                id="project-goal"
+                name="projectGoal"
+                placeholder="For example, help identify common plants from their leaves"
+                required
+              ></textarea>
+
+              <button class="primary-btn submit-btn" type="submit">
+                Create my project plan
+              </button>
+              <p class="form-note">
+                This beginner tool makes a project plan in your browser. It
+                does not connect to an AI service or train a model.
+              </p>
+            </form>
+
+            <section
+              id="ai-creator-result"
+              class="panel creator-result"
+              aria-live="polite"
+              aria-labelledby="ai-creator-result-title"
+              hidden
+            >
+              <h3 id="ai-creator-result-title">Your project plan</h3>
+              <div id="ai-creator-output"></div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="science" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>SS1 science: start with the basics</h2>
+            <p>
+              Science helps us ask questions, investigate evidence, and explain
+              the world. These introductory topics are common starting points;
+              follow your teacher's scheme of work for your class.
+            </p>
+          </div>
+
+          <div class="interest-grid">
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">🌱</div>
+              <h3>Biology</h3>
+              <p><strong>Topic: Living things</strong></p>
+              <p>
+                Living things carry out life processes such as nutrition,
+                respiration, growth, and reproduction. Practise by observing a
+                plant and recording how it changes over several days.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">⚗️</div>
+              <h3>Chemistry</h3>
+              <p><strong>Topic: Matter and particles</strong></p>
+              <p>
+                Matter has mass and occupies space. Solids, liquids, and gases
+                behave differently because their particles are arranged and
+                move differently.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">🏃</div>
+              <h3>Physics</h3>
+              <p><strong>Topic: Measurement and motion</strong></p>
+              <p>
+                Measurements use agreed units. For example, speed describes
+                distance travelled per unit of time. Measure a short walk
+                safely and compare the results.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Learning should feel practical</h2>
+            <p>
+              Take one idea at a time, try it yourself, and explain what you
+              discovered in your own words.
+            </p>
+          </div>
+
+          <div class="feature-strip">
+            <div class="feature-box">
+              <strong>Understand</strong>
+              <span>Start with clear, simple explanations.</span>
+            </div>
+            <div class="feature-box">
+              <strong>Practise</strong>
+              <span>Try a small activity or answer a question.</span>
+            </div>
+            <div class="feature-box">
+              <strong>Keep exploring</strong>
+              <span>Ask questions and build on what you know.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="about-grid">
+            <div class="panel">
+              <div class="section-header">
+                <h2>Write me a message</h2>
+                <p>
+                  Have a question about the lessons or want to get in touch?
+                  Fill in the form and send it with your email app.
+                </p>
+              </div>
+              <form id="contact-form">
+                <div class="input-row">
+                  <label>
+                    Your name
+                    <input
+                      name="name"
+                      type="text"
+                      autocomplete="name"
+                      placeholder="Your name"
+                      required
+                    />
+                  </label>
+                  <label>
+                    Your email
+                    <input
+                      name="email"
+                      type="email"
+                      autocomplete="email"
+                      placeholder="you@example.com"
+                      required
+                    />
+                  </label>
+                </div>
+                <label for="contact-message">Your message</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  placeholder="Write your message here..."
+                  required
+                ></textarea>
+                <button class="primary-btn submit-btn" type="submit">
+                  Open email to send
+                </button>
+                <p id="contact-status" class="form-note" aria-live="polite">
+                  Your message is not saved on this website. It will open in
+                  your email app so you can send it.
+                </p>
+              </form>
+            </div>
+            <aside class="panel contact-details">
+              <h3>Prefer email?</h3>
+              <p>
+                <a href="mailto:danielirewamiri011@gmail.com">
+                  danielirewamiri011@gmail.com
+                </a>
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        Learn with Daniel · Beginner-friendly learning in technology and science.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
